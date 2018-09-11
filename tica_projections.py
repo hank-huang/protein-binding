@@ -16,7 +16,10 @@ feat.add_distances_ca()
 
 inp = coor.source(trajfile, feat)
 
+# Lagtime 2000 steps
+
 feat_tica_obj = coor.tica(inp, lag = 2000, dim = 2, kinetic_map = True)
 
+# Save object to csv
 feat_tica_obj.write_to_csv('backbone_torsion//ca_distances', extension = '.dat')
 
