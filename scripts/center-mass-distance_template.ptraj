@@ -2,7 +2,7 @@ parm /data/hhuang/ArkA_MSM/distance_dat/total1_gas.prmtop
 
 trajin /data/hhuang/ArkA_MSM/pcca2_50Gsamples_nobox_ACTUAL.nc
 
-distance center_mass :1-9 :10-67 out /data/hhuang/ArkA_MSM/distance_dat/centermass2_seg1_500_ACTUAL.dat
+distance center_mass :res1 :res2 out /data/hhuang/ArkA_MSM/distance_dat/distance.dat
 
 run
 
