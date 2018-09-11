@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -D  /data/hhuang/ArkA_MSM/
-#SBATCH --output=./markov_gen_out/markov_tica_500_out.txt
+#SBATCH --output=./markov_gen_out/markov_tica_template.txt
 #SBATCH -J markov_gen
 #SBATCH --partition=defq
 #SBATCH --get-user-env
@@ -12,5 +12,5 @@
 
 source /etc/profile.d/modules.sh
 
-python markov_gen.py 'markov_seg1_1_tica_500' 'seg1_1/tica_seg1_1_complete.npy'
+python markov_gen.py '' ''
 
