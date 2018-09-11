@@ -1,0 +1,8 @@
+parm /data/hhuang/ArkA_MSM/distance_dat/total1_gas.prmtop
+
+trajin /data/hhuang/ArkA_MSM/pcca2_50Gsamples_ACTUAL.nc
+
+trajout pcca2_50Gsamples_nobox_ACTUAL.nc netcdf nobox
+
+run
+quit
