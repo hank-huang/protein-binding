@@ -1,2 +1,2 @@
 # protein-binding
-Markov Modeling and amber files 
+Characterization of ArkA Segment 1 to SH3 Binding using Markov State Models
