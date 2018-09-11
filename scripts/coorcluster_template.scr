@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -D  /data/hhuang/ArkA_MSM/
-#SBATCH --output=./markov_gen_out/coorcluster_LAG500.txt
+#SBATCH --output=./markov_gen_out/coorcluster_template.txt
 #SBATCH -J markov_gen
 #SBATCH --partition=defq
 #SBATCH --get-user-env
@@ -12,5 +12,5 @@
 
 source /etc/profile.d/modules.sh
 
-python coorcluster.py 'coorcluster_LAG500_ACTUAL' 'seg1_1/tica_seg1_1_complete_LAG_ACTUAL500.npy'
+python coorcluster.py '' ''
 
